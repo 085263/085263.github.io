@@ -1,0 +1,18 @@
+{
+  "municipality_code": "30406",
+  "municipality": "すさみ町",
+  "ward": null,
+  "updated_at": "2026-10-03",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.susami.lg.jp/",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/index_d/fil/jutakupanfu.pdf",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/taishin/soudanmadoguchi.html"
+  ],
+  "items": [],
+  "not_yet_covered": [
+    {"name": "防災関連ページ(耐震関連の具体的な補助金ページは未発見)", "official_url": "https://www.town.susami.lg.jp/bousai/index.html"}
+  ],
+  "note": "2026-10-03、3回目の再調査済み。防災情報ページ(bousai/index.html)を直接WebFetchで再確認したが、ハザードマップ・避難所等のみで耐震改修補助金への言及はなし。すさみ町は和歌山県の木造住宅耐震診断士派遣事業(無料診断)の対象であることは確認できたが、改修工事への金銭補助制度の一次情報源には3回の調査でも到達できず。和歌山県公式パンフレット「住宅支援のあれこれ」記載の窓口は総務課(0739-55-4802)。町の規模が小さく独自の改修補助制度自体が存在しない可能性が相応にある。items: []を維持、要電話確認。"
+}

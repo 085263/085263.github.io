@@ -1,0 +1,64 @@
+{
+  "municipality_code": "30362",
+  "municipality": "広川町",
+  "ward": null,
+  "updated_at": "2026-10-03",
+  "verified_by_human": false,
+  "verified_at": null,
+  "source_urls": [
+    "https://www.town.hirogawa.wakayama.jp/bousai/bousaihojyokin.html",
+    "https://www.pref.wakayama.lg.jp/prefg/080800/index_d/fil/jutakupanfu.pdf"
+  ],
+  "items": [
+    {
+      "id": "hirogawa-wood-shindan",
+      "name": "木造住宅耐震診断",
+      "amount_text": "無料(町が耐震診断士を派遣)",
+      "amount_max_yen": 0,
+      "condition_text": "平成12年5月31日以前に着工された木造住宅で、地上階数2以下・延べ面積200㎡以下。",
+      "eligibility": {
+        "building_types": ["wood"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、公式ページ(bousaihojyokin.html)で確認。",
+      "deadline": null,
+      "official_url": "https://www.town.hirogawa.wakayama.jp/bousai/bousaihojyokin.html"
+    },
+    {
+      "id": "hirogawa-nonwood-shindan",
+      "name": "非木造住宅耐震診断",
+      "amount_text": "診断費用の2/3以内、上限8万9千円",
+      "amount_max_yen": 89000,
+      "condition_text": "昭和56年5月31日以前に着工された非木造住宅で、地上階数2以下・延べ面積200㎡以下。",
+      "eligibility": {
+        "building_types": ["light_steel", "heavy_steel"],
+        "built_before": "1981-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、公式ページ(bousaihojyokin.html)で確認。",
+      "deadline": null,
+      "official_url": "https://www.town.hirogawa.wakayama.jp/bousai/bousaihojyokin.html"
+    },
+    {
+      "id": "hirogawa-taishin-kaishu",
+      "name": "耐震補強設計・耐震改修工事補助",
+      "amount_text": "耐震診断で木造評点1.0未満(非木造0.6未満、一次診断法は0.8未満)の住宅が対象、補強設計と改修工事合計で上限131万6千円",
+      "amount_max_yen": 1316000,
+      "condition_text": "診断の結果、木造は評点1.0未満、非木造は0.6未満(一次診断法は0.8未満)であること。",
+      "eligibility": {
+        "building_types": ["wood", "light_steel", "heavy_steel"],
+        "built_before": "2000-06-01",
+        "built_after": null
+      },
+      "note": "2026-10-03、公式ページ(bousaihojyokin.html)で確認。和歌山県共通スキーム(工事費40%上限57.5万円+定額74.1万円)と同額。",
+      "deadline": null,
+      "official_url": "https://www.town.hirogawa.wakayama.jp/bousai/bousaihojyokin.html"
+    }
+  ],
+  "not_yet_covered": [
+    {"name": "広川町住宅リフォーム補助金交付制度(耐震専用ではなく一般リフォーム補助)", "official_url": "https://www.town.hirogawa.wakayama.jp/soumu/reformhojokin.html"},
+    {"name": "耐震ベッド・耐震シェルター設置補助(他のWeb検索要約では言及あるが、公式ページ(bousaihojyokin.html)には記載なし、未確認)", "official_url": "https://www.town.hirogawa.wakayama.jp/bousai/bousaihojyokin.html"}
+  ],
+  "note": "2026-10-03、公式ページ(bousaihojyokin.html)を直接WebFetchし確定。福岡県にも同名の「広川町」(town.hirokawa.fukuoka.jp、ローマ字表記はhirokawa)が別途存在するため厳重に確認し、和歌山県有田郡広川町(town.hirogawa.wakayama.jp)の情報のみを採用した。申請窓口:総務課防災班 0737-23-7732。"
+}

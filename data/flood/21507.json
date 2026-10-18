@@ -1,0 +1,20 @@
+{
+  "flood": {
+    "present": false
+  },
+  "tsunami": {
+    "present": false
+  },
+  "landslide": {
+    "present": true,
+    "phenomena": [
+      "土石流",
+      "地すべり",
+      "急傾斜地の崩壊"
+    ],
+    "zones": [
+      "土砂災害警戒区域(指定済)",
+      "土砂災害特別警戒区域(指定済)"
+    ]
+  }
+}
